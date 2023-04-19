@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="display">
+            <input type="text" id="input">
+            <div class="buttons">
+                <div class="button" onclick="clear()">C</div>
+                <div class="button" onclick="add('/')">/</div>
+                <div class="button" onclick="cancel()">⌫</div>
+                <div class="button" onclick="add('*')">*</div>
+                <div class="button" onclick="add(7)">7</div>
+                <div class="button" onclick="add(8)">8</div>
+                <div class="button" onclick="add(9)">9</div>
+                <div class="button" onclick="add('%')">%</div>
+                <div class="button" onclick="add(4)">4</div>
+                <div class="button" onclick="add(5)">5</div>
+                <div class="button" onclick="add(6)">6</div>
+                <div class="button" onclick="add('-')">-</div>
+                <div class="button" onclick="add(1)">1</div>
+                <div class="button" onclick="add(2)">2</div>
+                <div class="button" onclick="add(3)">3</div>  
+                <div class="button" onclick="add('+')">+</div>              
+                <div class="button" onclick="add(00)">00</div>
+                <div class="button" onclick="add(0)">0</div>
+                <div class="button" onclick="add('.')">.</div>
+                <div id="equal" class="button" onclick="result()">=</div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
